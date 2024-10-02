@@ -71,4 +71,6 @@ const StepOne = ({ nextStep, handleFormData, values }) => {
       </Card>
     </div>
   );
-}
+};
+
+export default StepOne;

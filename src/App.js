@@ -1,9 +1,9 @@
 import "./App.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { useState } from "react";
-import StepOne from "./Components/Forms/StepOne";
-import StepTwo from "./Components/Forms/StepTwo";
-import Final from "./Components/Forms/Final";
+import StepOne from "./Component/StepOne";
+import StepTwo from "./Component/StepTwo";
+import Final from "./Component/Final";
 
 function App() {
   //state for steps
@@ -81,6 +81,13 @@ function App() {
           </Container>
         </div>
       );
-    }
+    // default case to show nothing
+    default:
+      return (
+        <div className="App">
+        </div>
+      );
+  }
 }
-    
+
+export default App;

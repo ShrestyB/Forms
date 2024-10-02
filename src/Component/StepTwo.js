@@ -63,3 +63,12 @@ const StepTwo = ({ nextStep, handleFormData, prevStep, values }) => {
               <Button variant="primary" type="submit">
                 Submit
               </Button>
+            </div>
+          </Form>
+        </Card.Body>
+      </Card>
+    </>
+  );
+};
+
+export default StepTwo;
